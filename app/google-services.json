@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "538610265039",
+    "project_id": "shop-a34ed",
+    "storage_bucket": "shop-a34ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538610265039:android:9b220c30674ec9560ac0ba",
+        "android_client_info": {
+          "package_name": "com.fyp.barcodebasedpaymentsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538610265039-j7sgpliudp07u8uv9jgrhavv95r10put.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fyp.barcodebasedpaymentsystem",
+            "certificate_hash": "ebc1b073fc2723213b8075b52dcfbf56e0822001"
+          }
+        },
+        {
+          "client_id": "538610265039-oa6fjk1r4naulqt0g773948mn84ucm7v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBexbHLff7kRuQGRNSxBlfkyVl3qMGgKGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538610265039-oa6fjk1r4naulqt0g773948mn84ucm7v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

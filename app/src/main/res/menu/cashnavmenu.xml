@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ic_home2"
+        android:icon="@drawable/ic_home2_foreground"
+        android:title="@string/Home"
+        app:cnb_textColor = "@color/black"
+        app:cnb_backgroundColor = "@color/whiteGrey"
+        app:cnb_iconColor="@color/black"
+        app:cnb_iconTintMode="src_in"/>
+    <item
+        android:id="@+id/ic_details"
+        android:icon="@drawable/ic_details_foreground"
+        android:title="@string/Order_List"
+        app:cnb_textColor = "@color/black"
+        app:cnb_backgroundColor = "@color/whiteGrey"
+        app:cnb_iconColor="@color/black"
+        app:cnb_iconTintMode="src_in"/>
+
+</menu>

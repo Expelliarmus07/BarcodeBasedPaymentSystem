@@ -1,0 +1,197 @@
+<resources>
+    <string name="app_name">SRI MAWAR JAYA</string>
+
+    <string name="content_description">image</string>
+    <string name="title_login">LOGIN</string>
+    <string name="et_hint_email_id">EMAIL ID</string>
+    <string name="et_hint_password">PASSWORD</string>
+    <string name="lbl_forgot_password">Forgot Password</string>
+    <string name="btn_lbl_login">Login</string>
+    <string name="btn_lbl_signin">Sign In</string>
+    <string name="createt">Create Account</string>
+    <string name="cus_t">Customer</string>
+    <string name="cas_h">Cashier</string>
+    <string name="register"><u>Register</u></string>
+    <string name="haveAcc">Already Have An Account? Login Here</string>
+    <string name="name">FULLNAME</string>
+    <string name="cclog">SIGN IN</string>
+    <string name="cashid">YOUR GIVEN EMAIL ADDRESS</string>
+    <string name="reset_password">RESET PASSWORD</string>
+    <string name="send_link">Send link</string>
+    <string name="profile">PROFILE</string>
+    <string name="num">PHONE NUMBER</string>
+    <string name="read_storage_permission_denied">Oops, you just denied the permission</string>
+    <string name="rb_lbl_male">MALE</string>
+    <string name="rb_lbl_female">FEMALE</string>
+    <string name="save">SAVE</string>
+
+
+    <string name="logout">LOGOUT</string>
+    <string name="content">START SCANNING</string>
+
+
+    <string name="scan">SCAN NOW</string>
+
+
+    <string name="image_selection_failed">Image selection Failed ;-)</string>
+
+    <string name="email_succ">\"Email sent successfully to reset your password! \"</string>
+
+
+    <string name="err_msg_enter_name">PLEASE ENTER YOUR NAME</string>
+    <string name="err_msg_enter_email">PLEASE ENTER YOUR EMAIL</string>
+    <string name="err_msg_enter_rollnum">PLEASE ENTER YOUR ROLL NUMBER</string>
+    <string name="err_msg_enter_pwd">PLEASE ENTER YOUR PASSWORD</string>
+    <string name="err_msg_enter_confirm_pwd">PASSWORD MISMATCHED</string>
+    <string name="err_msg_enter_number">PLEASE ENTER YOUR NUMBER</string>
+    <string name="validMsg">THANKS FOR REGISTERING</string>
+
+    <string name="please_wait">Please Wait&#8230;</string>
+    <string name="register_success">YOU ARE REGISTERED SUCCESSFULLY</string>
+
+    <string name="msg_profile_update_successfully">YOUR PROFILE IS UPDATED SUCCESSFULLY.</string>
+    <string name="purchased_verified">ORDER VERIFIED.</string>
+
+    <string name="title_activity_dashboard">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_dash_board">MainActivity</string>
+    <string name="title_activity_dashboardactivity">MainActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_dboard">MainActivity</string>
+
+
+    <string name="Cart">Cart</string>
+    <string name="Home">Home</string>
+    <string name="Settings">Settings</string>
+    <string name="Category">Category</string>
+    <string name="Products">Products</string>
+
+
+    <string name="gender">Gender</string>
+    <string name="add">Address</string>
+    <string name="title_settings">SETTINGS</string>
+    <string name="title_complete_profile">Complete your profile</string>
+    <string name="title_edit_profile">EDIT PROFILE</string>
+    <string name="lbl_edit">edit here</string>
+    <string name="TransactionDetails">Transaction History</string>
+    <string name="Order_List">Order List</string>
+    <string name="verified">Verified Transactions</string>
+
+    <string name="scan2view">Scan the QR code </string>
+
+    <string name="action_add_product">Add Product</string>
+
+
+    <string name="title_add_product">Add Product</string>
+    <string name="et_hint_product_title">PRODUCT TITLE</string>
+    <string name="et_hint_product_price">PRODUCT PRICE (RM)</string>
+    <string name="et_hint_product_description">DATESTOCKED(YYYY-MM-DD)</string>
+    <string name="et_hint_product_quantity">PRODUCT QUANTITY</string>
+    <string name="submit">SUBMIT</string>
+
+
+    <string name="err_msg_select_product_title">PLEASE ENTER THE PRODUCT TITLE</string>
+    <string name="err_msg_select_product_price">PLEASE ENTER THE PRODUCT PRICE</string>
+    <string name="err_msg_select_product_description">PLEASE ENTER THE PRODUCT DESCRIPTION</string>
+    <string name="err_msg_select_product_quantity">PLEASE ENTER THE PRODUCT QUANTITY</string>
+    <string name="err_msg_select_product_image">PLEASE ENTER THE PRODUCT IMAGE</string>
+
+    <string name="product_uploaded_success_message">YOUR PRODUCT WAS UPLOADED SUCCESSFULLY</string>
+    <string name="no_products_added_yet">NO PRODUCTS ADDED YET!</string>
+
+    <string name="title_product_details">PRODUCT DETAILS</string>
+    <string name="lbl_product_description">PRODUCT STOCKED DATE</string>
+    <string name="lbl_product_details_stock_quantity">STOCK QUANTITY</string>
+
+    <string name="btn_lbl_add_to_cart">ADD TO CART</string>
+    <string name="success_message_item_added_to_cart">PRODUCT IS ADDED TO YOUR CART!</string>
+    <string name="btn_lbl_go_to_cart">GO TO CART</string>
+
+    <string name="title_my_cart">MY CART</string>
+    <string name="no_cart_item_found">NO ITEM FOUND IN CART!</string>
+    <string name="lbl_subtotal">SUBTOTAL</string>
+    <string name="lbl_tax_charge">Tax</string>
+    <string name="lbl_total_amount">TOTAL AMOUNT</string>
+    <string name="btn_lbl_checkout">CHECKOUT</string>
+    <string name="action_cart">MY CART</string>
+
+    <string name="lbl_out_of_stock">OUT OF STOCK</string>
+    <string name="msg_item_removed_successfully">ITEM REMOVED SUCCESSFULLY.</string>
+    <string name="msg_for_available_stock">" AVAILABLE STOCK IS %1$s!.YOU CANNOT ADD MORE THAN STOCK QUANTITY!"</string>
+    <string name="et_hint_product_barcode">BARCODE NUMBER</string>
+    <string name="title_add_product_details">ADD PRODUCTS</string>
+    <string name="err_msg_select_product_barcode">PLEASE ENTER PRODUCT BARCODE</string>
+    <string name="lbl_product_barcode_details_description">PRODUCT BARCODE</string>
+
+    <string name="title_checkout">CHECKOUT</string>
+    <string name="checkout_lbl_product_items">Product Items</string>
+    <string name="checkout_lbl_selected_address">Selected Address</string>
+    <string name="checkout_lbl_items_receipt">Items Receipt</string>
+    <string name="lbl_payment_mode">Payment Mode</string>
+    <string name="lbl_cash_on_delivery">Pay at the counter</string>
+    <string name="btn_lbl_place_order">GENERATE QR CODE</string>
+    <string name="no_orders_placed_yet">No orders placed yet!</string>
+
+    <string name="title_my_order_details">ORDER DETAILS</string>
+    <string name="order_details_lbl">Order Details</string>
+    <string name="order_details_lbl_order_id">Order ID</string>
+    <string name="order_details_lbl_order_date">Order Date</string>
+    <string name="order_details_lbl_order_status">Order Status</string>
+    <string name="order_status_pending">Pending</string>
+    <string name="order_details_lbl_shipping_address">Shipping Address</string>
+
+    <string name="order_status_in_process">In Process</string>
+    <string name="order_status_delivered">Paid</string>
+    <string name="title_verify">ORDER</string>
+    <string name="btn_lbl_verify">VERIFY ORDER</string>
+    <string name="lbl_given_amount">Amount Given</string>
+    <string name="lbl_balance">BALANCE</string>
+    <string name="lbl_type_here">Type here</string>
+    <string name="exit">EXIT</string>
+    <string name="qrcodeend">Don\'t press exit until the code have been</string>
+    <string name="end">scanned</string>
+    <string name="action_search">Search</string>
+    <string name="no_data_found">NO PRODUCT SOLD YET</string>
+    <string name="et_hint_product_category">CATEGORY(/)</string>
+    <string name="err_msg_select_product_category">PLEASE ENTER THE PRODUCT CATEGORY</string>
+    <string name="Receipt">Receipt</string>
+    <string name="no_receipt_found">BUY SOME PRODUCTS FIRST</string>
+    <string name="address">42, Jalan Mawar 1, \n Taman Mawar, \n 81700 Pasir Gudang, \n Johor</string>
+    <string name="title_invoice">INVOICE</string>
+    <string name="store_name">SRI MAWAR JAYA STORE</string>
+    <string name="phonenum">016-756 6290</string>
+    <string name="cashier">CASHIER :  </string>
+    <string name="cashierNAME">SAMANTHA</string>
+    <string name="thankyou">-----THANKS FOR PURCHASING, PLEASE COME AGAIN-----</string>
+    <string name="product">PRODUCTS</string>
+    <string name="scan_product">SCAN PRODUCT</string>
+    <string name="receipt">INVOICE</string>
+    <string name="action_sort">Sort</string>
+    <string name="pick_date">PICK DATE</string>
+    <string name="scan_qr">SCAN QR CODE</string>
+    <string name="orderhistory">ORDER HISTORY</string>
+    <string name="let_get_started">LET\'S GET STARTED</string>
+
+
+    <string name="first_slide_title">Eliminate Queue</string>
+    <string name="second_slide_title">Just a simple step,scan and add!</string>
+    <string name="third_slide_title">Say Yes to Digital Invoice!</string>
+    <string name="first_slide_desc">Avoid queuing up to pay at the counter. Shop smart and stay safe! </string>
+    <string name="second_slide_desc">Just scan the products barcode before adding into your basket. You also can track how much you need to pay.</string>
+    <string name="third_slide_desc">Yes, you heard it right. You will be getting e-invoice for your purchases in the application!</string>
+    <string name="skip_btn">SKIP</string>
+    <string name="lbl_payment">PAYMENT(RM)</string>
+    <string name="lbl_change">CHANGE</string>
+    <string name="calc">CALCULATE</string>
+    <string name="action_refresh">REFRESH</string>
+    <string name="et_hint_confirm_password">CONFIRM PASSWORD</string>
+    <string name="min_char">"Minimum 8 Characters "</string>
+    <string name="cap_let">"Need at least 1 capital letter "</string>
+    <string name="small_let">"Need at least 1 small letter "</string>
+    <string name="capital">PLEASE FOLLOW THE GUIDE LINE</string>
+    <string name="guideLine">GUIDELINE : PASSWORD SHOULD HAVE ATLEAST 1 DIGIT, 1 UPPERCASE AND MIN LENGTH OF 8</string>
+
+
+</resources>

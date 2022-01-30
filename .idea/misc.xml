@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22711111111111112" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/bg_rate.xml" value="0.1" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/box_corner.xml" value="0.2301801801801802" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/btn_white.xml" value="0.2301801801801802" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/button2_background.xml" value="0.20462962962962963" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/button_background.xml" value="0.2301801801801802" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/custom_password_eye.xml" value="0.1824074074074074" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/customborder.xml" value="0.2301801801801802" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/ic_category_foreground.xml" value="0.2301801801801802" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/ic_details_foreground.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/ic_home_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22711111111111112" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/ic_refresh.xml" value="0.22711111111111112" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/ic_vector_add.xml" value="0.2301801801801802" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/ic_vector_cart.xml" value="0.22711111111111112" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/ic_vector_delete.xml" value="0.2301801801801802" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/ic_vector_remove.xml" value="0.2301801801801802" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/ic_vector_search.xml" value="0.22711111111111112" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/ic_vector_storefront.xml" value="0.2301801801801802" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/ic_white_color_back_24dp.xml" value="0.2301801801801802" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/item_dashboard_background.xml" value="0.1" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/item_grey_border_background.xml" value="0.2301801801801802" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/item_selector.xml" value="0.1" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/recipt_stoke.xml" value="0.125" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/round.xml" value="0.20925925925925926" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/round_corner.xml" value="0.1" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/round_corner_rate.xml" value="0.1" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/round_corners.xml" value="0.1" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/rv_item_image_background.xml" value="0.1" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/drawable/user_image_background.xml" value="0.22972972972972974" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/abs_layout.xml" value="0.1" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_bakery.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_barcode.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_beverage.xml" value="0.16" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_cart_list.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_cashier_add_product.xml" value="0.176" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_cashier_dashboard.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_cashier_loginpage.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_cashier_profile.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_cashier_settings.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_cashier_verifying.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_category_items.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_change_email_password.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_checkout.xml" value="0.2" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_chilled_frozen.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_cleaning_items.xml" value="0.1" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_cooking_ingredients.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_customer_feedback.xml" value="0.16" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_customer_invoice.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_customer_order_details.xml" value="0.25839793281653745" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_dashboard.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_forgot_password.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_grooming_items.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_main.xml" value="0.14402173913043478" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_nonfoodandstationary.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_on_boarding.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_pets.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_product_details.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_qrcode_generator.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_qrscan.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_register.xml" value="0.4" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_scan.xml" value="0.2" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_settings.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_signin.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_snacks.xml" value="0.1" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_splashscreen.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/activity_user_profile.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/bg_rate.xml" value="0.1" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/category_list_items.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/custom_dialog.xml" value="0.4" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/custom_settings.xml" value="0.536" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/customer_loginpage.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/dropdown_item.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/fragment_base.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/fragment_cart.xml" value="0.1" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/fragment_cashier_home.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/fragment_cashier_trans_detail.xml" value="0.13994565217391305" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/fragment_category.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/fragment_customer_receipt.xml" value="0.2" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/fragment_home.xml" value="0.22018348623853212" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/fragment_verified_order.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/invoice_list.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/item_cart_layout.xml" value="0.4" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/item_grid_layout.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/item_list_invoice.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/item_list_layout.xml" value="0.21578947368421053" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/new_product_details.xml" value="0.2151268115942029" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/notification.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/rating_custom.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/recycleview_for_searhview.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/search_single_item.xml" value="0.1" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/single_search_item.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/layout/slides_layout.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/menu/add_product_menu.xml" value="0.264" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/menu/cashnavmenu.xml" value="0.4" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/menu/dashboard_menu.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/menu/my_cart_menu.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/menu/nav_menu.xml" value="0.1" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/menu/refresh.xml" value="0.1" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/menu/search_button.xml" value="0.1" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/menu/settings_menu.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/menu/sort_menu.xml" value="0.21621621621621623" />
+        <entry key="..\:/Users/hp-z/AndroidStudioProjects/BarcodeBasedPaymentSystem/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2301801801801802" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

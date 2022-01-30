@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/grey_Black"
+    tools:context=".all.activity.fragments.CashierHomeFragment">
+
+    <com.fyp.barcodebasedpaymentsystem.all.utils.BNTextViewRegular
+        android:id="@+id/cashier_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scan2view"
+        android:textColor="@color/Orange"
+        android:layout_marginTop="90dp"
+        android:textSize="@dimen/title_textSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.fyp.barcodebasedpaymentsystem.all.utils.BNButton
+        android:id="@+id/cash_scan"
+        android:layout_width="333dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_corners"
+        android:text="@string/scan"
+        android:textColor="@color/white"
+        android:textSize="@dimen/smalltextSize2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/qrView" />
+
+    <ImageView
+        android:id="@+id/qrView"
+        android:layout_width="264dp"
+        android:layout_height="276dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/capture_qr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cashier_title"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

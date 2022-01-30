@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".all.activity.CheckoutActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_checkout_activity"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="@color/TopBarGreytoDG">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingStart="@dimen/toolbar_title_paddingStart"
+            android:paddingEnd="0dp"
+            android:text="@string/title_checkout"
+            android:textColor="@color/white"
+            android:textSize="@dimen/toolbar_title_text_size"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_checkout_activity"
+        android:layout_above="@+id/ll_checkout_place_order"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.fyp.barcodebasedpaymentsystem.all.utils.BNTextViewRegular
+                android:id="@+id/tv_product_items"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/checkout_content_marginStartEnd"
+                android:layout_marginTop="@dimen/checkout_content_marginTopBottom"
+                android:layout_marginEnd="@dimen/checkout_content_marginStartEnd"
+                android:paddingTop="@dimen/checkout_content_lbl_padding"
+                android:paddingBottom="@dimen/checkout_content_lbl_padding"
+                android:text="@string/checkout_lbl_product_items"
+                android:textColor="@color/black"
+                android:textSize="@dimen/checkout_lbl_textSize" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_cart_list_items"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_product_items" />
+
+            <com.fyp.barcodebasedpaymentsystem.all.utils.BNTextViewRegular
+                android:id="@+id/tv_items_receipt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rv_cart_list_items"
+                android:layout_marginStart="@dimen/checkout_content_marginStartEnd"
+                android:layout_marginTop="@dimen/checkout_content_marginTopBottom"
+                android:layout_marginEnd="@dimen/checkout_content_marginStartEnd"
+                android:layout_marginBottom="@dimen/checkout_content_marginTopBottom"
+                android:paddingTop="@dimen/checkout_content_lbl_padding"
+                android:paddingBottom="@dimen/checkout_content_lbl_padding"
+                android:text="@string/checkout_lbl_items_receipt"
+                android:textColor="@color/black"
+                android:textSize="@dimen/checkout_lbl_textSize" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_items_receipt"
+                android:background="@color/grey"
+                android:orientation="vertical"
+                android:padding="@dimen/ll_checkout_items_receipt">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.fyp.barcodebasedpaymentsystem.all.utils.BNTextViewRegular
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/lbl_subtotal"
+                        android:textColor="@color/Dark_grey"
+                        android:textSize="@dimen/checkout_label_value_textSize" />
+
+                    <com.fyp.barcodebasedpaymentsystem.all.utils.BNTextViewRegular
+                        android:id="@+id/tv_checkout_sub_total"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/checkout_label_value_textSize"
+                        tools:text="RM 100" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.fyp.barcodebasedpaymentsystem.all.utils.BNTextViewRegular
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/lbl_tax_charge"
+                        android:textColor="@color/Dark_grey"
+                        android:textSize="@dimen/checkout_label_value_textSize" />
+
+                    <com.fyp.barcodebasedpaymentsystem.all.utils.BNTextViewRegular
+                        android:id="@+id/tv_checkout_shipping_charge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RM 10.0"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/checkout_label_value_textSize" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.fyp.barcodebasedpaymentsystem.all.utils.BNTextViewRegular
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/lbl_total_amount"
+                        android:textColor="@color/Dark_grey"
+                        android:textSize="@dimen/checkout_label_value_textSize" />
+
+                    <com.fyp.barcodebasedpaymentsystem.all.utils.BNTextViewRegular
+                        android:id="@+id/tv_checkout_total_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/checkout_label_value_textSize"
+                        tools:text="RM 110" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_checkout_place_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/TopBarGreytoDG"
+        android:orientation="vertical"
+        android:padding="@dimen/ll_checkout_place_order_padding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.fyp.barcodebasedpaymentsystem.all.utils.BNTextViewRegular
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/lbl_payment_mode"
+                android:textColor="@color/black"
+                android:textSize="@dimen/checkout_label_value_textSize" />
+
+            <com.fyp.barcodebasedpaymentsystem.all.utils.BNTextViewRegular
+                android:id="@+id/tv_payment_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_cash_on_delivery"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/checkout_label_value_textSize" />
+        </LinearLayout>
+
+        <com.fyp.barcodebasedpaymentsystem.all.utils.BNButton
+            android:id="@+id/btn_place_order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/box_corner"
+            android:gravity="center"
+            android:paddingTop="@dimen/btn_padding"
+            android:paddingBottom="@dimen/btn_padding"
+            android:text="@string/btn_lbl_place_order"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/btn_textSize"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </LinearLayout>
+</RelativeLayout>

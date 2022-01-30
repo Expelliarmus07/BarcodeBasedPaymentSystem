@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#404E5A"
+    tools:context=".all.activity.SigninActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="486dp"
+        android:layout_height="883dp"
+        android:src="@drawable/bg_shadow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.921" />
+
+    <com.fyp.barcodebasedpaymentsystem.all.utils.BNTextViewRegular
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/btn_lbl_signin"
+        android:paddingLeft="20dp"
+        android:textColor="@color/Orange"
+        android:textSize="@dimen/title_textSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <com.fyp.barcodebasedpaymentsystem.all.utils.BNButton
+        android:id="@+id/CustButton"
+        android:layout_width="345dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/button_background"
+        android:text="@string/cus_t"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textSize"
+        android:layout_gravity = "center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+    <com.fyp.barcodebasedpaymentsystem.all.utils.BNButton
+        android:id="@+id/CashButton"
+        android:layout_width="345dp"
+        android:layout_height="97dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/button_background"
+        android:text="@string/cas_h"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CustButton" />
+
+    <LinearLayout
+        android:layout_width="373dp"
+        android:layout_height="268dp"
+        android:layout_marginTop="800dp"
+        android:layout_marginBottom="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.894">
+
+
+    </LinearLayout>
+
+    <com.fyp.barcodebasedpaymentsystem.all.utils.BNTextViewRegular
+        android:id="@+id/BNEditText3"
+        android:layout_width="268dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:text="@string/createt"
+        android:textColor="@color/Orange"
+        android:textSize="@dimen/smalltextSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingClass" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:context=".all.activity.SettingsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@+id/fl_header_bg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/header_image_height">
+
+            <ImageView
+                android:id="@+id/iv_header_bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/content_description"
+                android:scaleType="fitXY"
+                android:src="@drawable/bg_image" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar_settings_activity"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize" >
+
+                <TextView
+                    android:id="@+id/tv_title_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/title_settings"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/smalltextSize"
+                    android:textStyle="bold" />
+
+            </androidx.appcompat.widget.Toolbar>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_user_image"
+            android:layout_width="@dimen/settings_user_image_size"
+            android:layout_height="@dimen/settings_user_image_size"
+            android:layout_below="@+id/fl_header_bg"
+            android:layout_centerHorizontal= "true"
+            android:layout_marginTop="@dimen/settings_user_image_marginTop">
+
+            <ImageView
+                android:id="@+id/iv_user_photo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/settings_user_picture_margin"
+                android:contentDescription="@string/content_description"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_user_placeholder" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/user_image_background" />
+        </FrameLayout>
+
+
+        <com.fyp.barcodebasedpaymentsystem.all.utils.BNTextViewRegular
+            android:id="@+id/user_fullname1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fl_user_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="NAME"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <com.fyp.barcodebasedpaymentsystem.all.utils.BNTextViewRegular
+            android:id="@+id/user_email1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_fullname1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="EMAIL"
+            android:textColor="@color/dgrey"
+            android:textSize="25dp" />
+
+
+        <com.fyp.barcodebasedpaymentsystem.all.utils.BNTextViewRegular
+            android:id="@+id/user_phonenumber1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_email1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="NUMBER"
+            android:textColor="@color/dgrey"
+            android:textSize="25dp" />
+
+        <com.fyp.barcodebasedpaymentsystem.all.utils.BNTextViewRegular
+            android:id="@+id/user_gender1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_phonenumber1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:textSize="25dp"
+            android:textColor="@color/dgrey"
+            android:text="GENDER"/>
+
+
+        <com.fyp.barcodebasedpaymentsystem.all.utils.BNTextViewRegular
+            android:id="@+id/tv_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fl_header_bg"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/item_grey_border_background"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:paddingStart="1dp"
+            android:paddingTop="0dp"
+            android:paddingEnd="0dp"
+            android:paddingBottom="1dp"
+            android:text="@string/lbl_edit"
+            android:textColor="@color/dgrey"
+            android:textSize="25dp"  />
+
+        <com.fyp.barcodebasedpaymentsystem.all.utils.BNButton
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_gender1"
+            android:layout_gravity="center"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="125dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/box_corner"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="@string/logout"
+            android:textColor="@color/white"
+            android:textSize="@dimen/smalltextSize2" />
+
+    </RelativeLayout>
+
+</ScrollView>
