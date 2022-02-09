@@ -34,7 +34,7 @@ Create a mobile application for cashier to record their sales and information in
 **FIREBASE**
 
 ## Downloadable APK
-[SRI MAWAR JAYA APK](https://github.com/KillGod22/BarcodeBasedPaymentSystem/blob/master/Poster%20and%20APK/Sri%20Mawar%20Jaya%20.apk)
+[SRI MAWAR JAYA APK](https://github.com/KillGod22/BarcodeBasedPaymentSystem/raw/master/Poster%20and%20APK/Sri%20Mawar%20Jaya.apk)
 
 ## STAKEHOLDER
 **Sri Mawar jaya &copy;**
